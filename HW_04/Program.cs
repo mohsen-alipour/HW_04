@@ -1,11 +1,11 @@
-﻿
+﻿// test
 Boolean i = true;
 while (i)
 {
     Person persons = new Person();
     Console.WriteLine("Please Enter Name");
     persons.Name = Console.ReadLine();
-    Console.WriteLine("Please Enter Family");
+    Console.WriteLine("Please Enter Family");                   
     persons.Family = Console.ReadLine();
     Console.WriteLine("Please Enter Height");
     persons.Height = Convert.ToInt32(Console.ReadLine());
